@@ -7,11 +7,12 @@ This repository contains the R scripts used in the analysis for the paper:
 ## Contents
 
 • statistical_analisis.R: Prepares the data, performs the calculations of the Beta-diversity (Bray-Curtis abundance based) index, and performs statistical analysis and generates plots for the main results presented in the paper.
+
 • LDI_fragmentation_calc: Prepares the geospatial data already gathered and curated in a GIS environment and performs the calculations of the Landscape Division Index (LDI) of each sampling site.
 
-## Requirements
+## Specifications
 
-Data availability for these analysis are presented in the supplementary matterial of the paper (STable1; STable2; STable3), and are specified in the script where to import them to the R environment. 
+Data availability for these analysis are presented in the supplementary matterial of the paper (STable1.xlsx; STable2.xlsx; STable3.xlsx), and are specified in the script where to import them to the R environment. It may be necessary to convert the data files from .xlsx to .csv. It also shsould be noted that the files have two sheets, sheet 1 is the metadata and sheet 2 is the raw data. 
 
 The scripts were written in RStudio 2024.12.1 and use standard ecological, geospatial and statistical packages. All required packages are loaded at the beginning of each script.
 
