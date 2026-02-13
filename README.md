@@ -4,12 +4,12 @@ R Script for the analyisis of the scientific paper: Bridging human drivers on ri
 This repository contains the R scripts used in the analysis for the paper:
 "Urban environmental filters shape plant functional composition and diversity in dryland riparian habitats"
 
-##Contents
+## Contents
 
 • statistical_analisis.R: Prepares the data, performs the calculations of the Beta-diversity (Bray-Curtis abundance based) index, and performs statistical analysis and generates plots for the main results presented in the paper.
 • LDI_fragmentation_calc: Prepares the geospatial data already gathered and curated in a GIS environment and performs the calculations of the Landscape Division Index (LDI) of each sampling site.
 
-##Requirements
+## Requirements
 
 Data availability for these analysis are presented in the supplementary matterial of the paper (STable1; STable2; STable3), and are specified in the script where to import them to the R environment. 
 
