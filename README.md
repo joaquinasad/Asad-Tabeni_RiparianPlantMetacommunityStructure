@@ -12,10 +12,7 @@ This repository contains the R scripts used in the analysis for the paper:
 
 ## Data Requirements
 
-Input datasets required for statistical_analysis.R are available in the Supplementary Materials of the paper:
-STable1.xlsx
-STable2.xlsx
-STable3.xlsx
+Input datasets required for statistical_analysis.R are available in the Supplementary Materials of the paper: STable1.xlsx; STable2.xlsx; STable3.xlsx
 
 The script specifies the import paths and expected structure.
 
