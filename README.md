@@ -2,21 +2,33 @@
 R Script for the analyisis of the scientific paper: Bridging human drivers on riparian plant metacommunity structure along a dryland natural-rural-urban gradient
 
 This repository contains the R scripts used in the analysis for the paper:
-"Urban environmental filters shape plant functional composition and diversity in dryland riparian habitats"
+"Bridging human drivers on riparian plant metacommunity structure along a dryland natural-rural-urban gradient"
 
-## Contents
+## Contents and data structure
 
-• statistical_analisis.R: Prepares the data, performs the calculations of the Beta-diversity (Bray-Curtis abundance based) index, and performs statistical analysis and generates plots for the main results presented in the paper.
+• statistical_analisis.R: Preprocesses datasets, computes β-diversity metrics (abundance-based Bray–Curtis dissimilarity), conducts statistical analyses, and generates figures corresponding to the main results reported in the manuscript.
 
-• LDI_fragmentation_calc: Prepares the geospatial data already gathered and curated in a GIS environment and performs the calculations of the Landscape Division Index (LDI) of each sampling site.
+• LDI_fragmentation_calc: Processes geospatial datasets previously curated in a GIS environment and computes the Landscape Division Index (LDI) for each sampling site.
 
-## Specifications
+## Data Requirements
 
-Data availability for these analysis are presented in the supplementary matterial of the paper (STable1.xlsx; STable2.xlsx; STable3.xlsx), and are specified in the script where to import them to the R environment. It may be necessary to convert the data files from .xlsx to .csv. It also shsould be noted that the files have two sheets, sheet 1 is the metadata and sheet 2 is the raw data. 
+Input datasets required for statistical_analysis.R are available in the Supplementary Materials of the paper:
+STable1.xlsx
+STable2.xlsx
+STable3.xlsx
 
-The scripts were written in RStudio 2024.12.1 and use standard ecological, geospatial and statistical packages. All required packages are loaded at the beginning of each script.
+The script specifies the import paths and expected structure.
 
-You can install any missing packages using the following example command in R:
+Important formatting notes: Files may need conversion from .xlsx to .csv depending on the user's R configuration.
+
+Each spreadsheet contains: Sheet 1: Metadata; Sheet 2: Raw data
+
+Ensure that the correct sheet is selected during import.
+
+## Software environment
+Scripts were devolped and tested using RStudio 2024.12.1 They rely on commonly used ecological, geospatial, and statistical libraries. All dependencies are explicitly loaded at the beginning of each script.
+
+Install any missing package with the following command in R:
 
 ```r
 install.packages("name_of_package")
