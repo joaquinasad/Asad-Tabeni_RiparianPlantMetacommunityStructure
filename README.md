@@ -18,4 +18,6 @@ The scripts were written in RStudio 2024.12.1 and use standard ecological, geosp
 
 You can install any missing packages using the following example command in R:
 
+```r
 install.packages("name_of_package")
+
