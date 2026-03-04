@@ -6,7 +6,7 @@ This repository contains the R scripts used in the analysis for the paper:
 
 ## Contents and data structure
 
-• statistical_analisis.R: Preprocesses datasets, computes β-diversity metrics (abundance-based Bray–Curtis dissimilarity), conducts statistical analyses, and generates figures corresponding to the main results reported in the manuscript.
+• betadiv_and_statisticalanalisis.R: Preprocesses datasets, computes β-diversity metrics (abundance-based Bray–Curtis dissimilarity), conducts statistical analyses, and generates figures corresponding to the main results reported in the manuscript.
 
 • LDI_fragmentation_calc: Processes geospatial datasets previously curated in a GIS environment and computes the Landscape Division Index (LDI) for each sampling site.
 
