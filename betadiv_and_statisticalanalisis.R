@@ -1,5 +1,6 @@
 
-#               STATISTICAL ANALISIS ASAD AND TABENI (2026) 
+#              Beta Diversity calculation and Statistical Analysis
+#                                Asad and Tabeni (2026) 
 
 # Paper Title: Bridging human drivers on riparian plant metacommunity structure along a dryland natural-rural-urban gradient
 
@@ -1435,5 +1436,6 @@ citation("vegan")
 citation("geosphere")
 citation("stats")
 citation("mgcv")
+
 
 
